@@ -12,10 +12,15 @@ public class shopplanobject extends basepageobject {
 
     @FindBy(xpath = "//a[text()='Shop plans']")
     WebElement shoplanlink;
+    @FindBy(xpath = "//h1[@class='mvne-title']")WebElement selectaplanforyoupage;
 
     public void click_shopplanlink() {
         shoplanlink.click();
 
+    }
+    public String gettxt_selectaplanpage(){
+       String nxt_page= selectaplanforyoupage.getText();
+       return nxt_page;
     }
 
 }
