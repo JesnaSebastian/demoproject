@@ -9,7 +9,7 @@ import Utilities.getdatafromconfig;
 import javax.swing.text.Utilities;
 
 public class TC_06_createAccountPage extends baseclass {
-    @Test
+    @Test(groups = {"regression"})
     public void TC_06_createAccount() throws InterruptedException {
         shopplanobject shopPage = new shopplanobject(driver);
         shopPage.click_shopplanlink();

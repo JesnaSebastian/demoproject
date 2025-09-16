@@ -12,7 +12,7 @@ import java.util.List;
 
 public class checkboxes_test {
     public WebDriver driver;
-    @Test
+    @Test(groups = {"sanity"})
             public void chkbox() throws InterruptedException {
         driver=new ChromeDriver();
         driver.manage().window().maximize();

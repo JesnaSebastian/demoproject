@@ -8,7 +8,7 @@ import pageobjects.shopplanobject;
 import testbase.baseclass;
 
 public class TC_03_bringYourPhone extends baseclass {
-    @Test
+    @Test(groups = {"regression"})
     public void TC_03_bringurphone() throws InterruptedException {
         shopplanobject shopPage = new shopplanobject(driver);
         shopPage.click_shopplanlink();

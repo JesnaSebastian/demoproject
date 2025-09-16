@@ -12,7 +12,7 @@ import java.time.Duration;
 public class d1 {
     WebDriver driver;
 
-    @Test
+    @Test(groups = {"sanity"})
     public void dummy1() {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

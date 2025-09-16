@@ -9,7 +9,7 @@ import pageobjects.shopplanobject;
 import testbase.baseclass;
 
 public class TC_04_selectSIMobject extends baseclass {
-    @Test
+    @Test(groups = {"regression"})
 
     public void TC_04_selet_SIM() throws InterruptedException {
 

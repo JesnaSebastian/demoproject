@@ -13,7 +13,7 @@ import java.util.List;
 public class static_webtable {
     public WebDriver driver;
 
-    @Test
+    @Test(groups = {"sanity"})
     public void staticwebable() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();

@@ -6,7 +6,7 @@ import pageobjects.*;
 import testbase.baseclass;
 
 public class TC_05_mycartPSIMadded extends baseclass {
-    @Test
+    @Test(groups = {"regression"})
     public void TC_05_mycartPSIMaddedex() throws InterruptedException {
         shopplanobject shopPage = new shopplanobject(driver);
         shopPage.click_shopplanlink();

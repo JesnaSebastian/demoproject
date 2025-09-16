@@ -1,9 +1,8 @@
 package testcases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.ElementClickInterceptedException;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebElement;
+import Utilities.getdatafromconfig;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,9 +11,14 @@ import testbase.baseclass;
 
 import java.time.Duration;
 
-public class d2 extends baseclass {
-    @Test
+public class d2 extends getdatafromconfig {
+    WebDriver driver;
+    @Test(groups = {"sanity"})
     public  void m1() throws InterruptedException {
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
+        driver.get(getlink("link"));
         driver.findElement(By.xpath("//a[text()='Shop plans']")).click();
         Thread.sleep(5000);
         WebElement selectaplanbutton=driver.findElement(By.xpath("//button[@data-testid='box-plan-card-button'][1]"));
@@ -49,6 +53,7 @@ public class d2 extends baseclass {
         }
         WebElement page_heading=driver.findElement(By.xpath("//h1[text()='My cart']"));
         System.out.println(page_heading);
+        driver.quit();
     }
 
 

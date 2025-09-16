@@ -30,7 +30,7 @@ public class datepicker {
             }
         }
     }
-    @Test
+    @Test(groups = {"sanity"})
     public void datepicker()
     {
         driver= new ChromeDriver();
@@ -43,5 +43,6 @@ public class datepicker {
         driver.switchTo().frame(0);
         driver.findElement(By.xpath("//input[@id='datepicker']")).click();
         selectFuturedate(driver,year,month,date);
+        driver.quit();
     }
 }

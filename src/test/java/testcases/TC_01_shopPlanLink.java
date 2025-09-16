@@ -7,7 +7,7 @@ import testbase.baseclass;
 
 public class TC_01_shopPlanLink extends baseclass {
 
-    @Test(priority = 1)
+    @Test(groups = {"regression"})
     public void TC_01_selectplnbutton() throws InterruptedException {
         shopplanobject spb = new shopplanobject(driver);
         spb.click_shopplanlink();

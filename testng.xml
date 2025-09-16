@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="10">
+    <test verbose="2" preserve-order="true" name="Grouping suite">
+        <parameter name="browser" value="chrome"/>
+        <groups>
+            <run>
+                <include name="regression"/>
+                <exclude name="sanity"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="testcases.checkboxes_test"/>
+            <class name="testcases.d1"/>
+            <class name="testcases.d2"/>
+            <class name="testcases.datepicker"/>
+            <class name="testcases.static_webtable"/>
+            <class name="testcases.TC_01_shopPlanLink"/>
+            <class name="testcases.TC_02_selectaPlan"/>
+            <class name="testcases.TC_03_bringYourPhone"/>
+            <class name="testcases.TC_04_selectSIMobject"/>
+            <class name="testcases.TC_05_mycartPSIMadded"/>
+            <class name="testcases.TC_06_createAccountPage"/>
+        </classes>
+    </test>
+</suite>
