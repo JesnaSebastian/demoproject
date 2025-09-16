@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="10">
+    <test verbose="2" preserve-order="true"
+          name="Automation suite Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcases.TC_01_shopPlanLink"/>
+            <class name="testcases.TC_02_selectaPlan"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Automation suite for firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testcases.TC_03_bringYourPhone"/>
+            <class name="testcases.TC_04_selectSIMobject"/>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Automation suite for edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+
+            <class name="testcases.TC_05_mycartPSIMadded"/>
+            <class name="testcases.TC_06_createAccountPage"/>
+
+        </classes>
+    </test>
+</suite>
