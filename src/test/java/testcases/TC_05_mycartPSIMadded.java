@@ -8,21 +8,26 @@ import testbase.baseclass;
 public class TC_05_mycartPSIMadded extends baseclass {
     @Test(groups = {"regression"})
     public void TC_05_mycartPSIMaddedex() throws InterruptedException {
+        logger.info("TC 5 started ");
         shopplanobject shopPage = new shopplanobject(driver);
         shopPage.click_shopplanlink();
+        logger.info("Clicked on Shop plans link");
         Thread.sleep(5000);
 
         selectaplanobject sap=new selectaplanobject(driver);
         sap.click_selectaplan();
+        logger.info("Plan is selected");
         Thread.sleep(5000);
 
         mycart_bringyourphoneObject byp=new mycart_bringyourphoneObject(driver);
         byp.click_bringyourphone();
+        logger.info("Clicked on Bring your phone");
         Thread.sleep(5000);
 
         selectSIMobject sso=new selectSIMobject(driver);
         sso.selectPSIM();
         sso.select_continue_button();
+        logger.info("pSIM is selected");
         Thread.sleep(5000);
 
         sso.click_continuebuttonpopup();

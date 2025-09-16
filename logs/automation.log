@@ -1,0 +1,19 @@
+2025-09-16 18:04:18 INFO  TC_05_mycartPSIMadded:11 - TC 5 started 
+2025-09-16 18:04:18 INFO  TC_01_shopPlanLink:12 - Starting TC_01 and Website opened
+2025-09-16 18:04:19 INFO  TC_02_selectaPlan:13 - TC 2 started
+2025-09-16 18:04:20 INFO  TC_04_selectSIMobject:15 - Test case 4 started
+2025-09-16 18:04:21 INFO  TC_05_mycartPSIMadded:14 - Clicked on Shop plans link
+2025-09-16 18:04:22 INFO  TC_03_bringYourPhone:13 - TC 3 started
+2025-09-16 18:04:23 INFO  TC_04_selectSIMobject:18 - Clicked on Shop plans link
+2025-09-16 18:04:25 INFO  TC_03_bringYourPhone:16 - Clicked on Shop plans link
+2025-09-16 18:04:26 INFO  TC_02_selectaPlan:16 - Clicked on shop plan
+2025-09-16 18:04:26 INFO  TC_01_shopPlanLink:15 - Clicked on Shop plans link
+2025-09-16 18:04:27 INFO  TC_05_mycartPSIMadded:19 - Plan is selected
+2025-09-16 18:04:29 INFO  TC_04_selectSIMobject:23 - Plan is selected
+2025-09-16 18:04:32 INFO  TC_02_selectaPlan:24 - plan is selected
+2025-09-16 18:04:33 INFO  TC_05_mycartPSIMadded:24 - Clicked on Bring your phone
+2025-09-16 18:04:34 INFO  TC_03_bringYourPhone:21 - Plan is selected 
+2025-09-16 18:04:36 INFO  TC_04_selectSIMobject:28 - Clicked on Brinng your phone
+2025-09-16 18:04:39 INFO  TC_03_bringYourPhone:26 - Clicked on by your phone
+2025-09-16 18:04:40 INFO  TC_05_mycartPSIMadded:30 - pSIM is selected
+2025-09-16 18:04:41 INFO  TC_04_selectSIMobject:33 - pSIM selected

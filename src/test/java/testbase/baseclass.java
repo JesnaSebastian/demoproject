@@ -1,6 +1,8 @@
 package testbase;
 
 import Utilities.getdatafromconfig;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -13,11 +15,13 @@ import java.time.Duration;
 
 public class baseclass extends getdatafromconfig {
     protected WebDriver driver;
+    public Logger logger;
     String linkforluanchportal = getlink("link");
 
     @BeforeClass(alwaysRun = true)
     @Parameters("browser")
     public void launchBrowser(String browser) {
+        logger = LogManager.getLogger(this.getClass());
         switch (browser.toLowerCase()) {
             case "chrome":
                 driver = new ChromeDriver();
