@@ -48,6 +48,6 @@ public class TC_05_mycartPSIMadded extends baseclass {
         Thread.sleep(5000);
         String verifyheader=mcartpSIM.validatecreateaccountpageheader();
         System.out.println(verifyheader);
-        Assert.assertEquals(verifyheader,"Create account","Failed to navigate to next page ");
+        Assert.assertEquals(verifyheader,"Create accoun","Failed to navigate to next page ");
     }
 }

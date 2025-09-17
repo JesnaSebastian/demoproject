@@ -14,7 +14,7 @@ import org.testng.annotations.Parameters;
 import java.time.Duration;
 
 public class baseclass extends getdatafromconfig {
-    protected WebDriver driver;
+    public WebDriver driver;
     public Logger logger;
     String linkforluanchportal = getlink("link");
 
