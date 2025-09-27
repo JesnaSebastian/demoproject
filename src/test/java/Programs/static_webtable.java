@@ -1,4 +1,4 @@
-package testcases;
+package Programs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import java.sql.Driver;
 import java.time.Duration;
 import java.util.List;
 

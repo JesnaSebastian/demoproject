@@ -1,4 +1,4 @@
-package testcases;
+package Programs;
 
 public class reversestring {
     public static void main(String[] args) {
