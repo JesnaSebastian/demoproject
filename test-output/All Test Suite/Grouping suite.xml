@@ -69,19 +69,19 @@ at java.base/java.lang.Thread.run(Thread.java:829)
   <testcase classname="testcases.TC_03_bringYourPhone" name="TC_03_bringurphone" time="34.81"/>
   <testcase classname="testcases.TC_04_selectSIMobject" name="TC_04_selet_SIM" time="62.807"/>
   <testcase classname="testcases.TC_05_mycartPSIMadded" name="TC_05_mycartPSIMaddedex" time="76.832"/>
-  <testcase classname="testcases.datepicker" name="datepicker" time="0.0">
+  <testcase classname="Programs.datepicker" name="datepicker" time="0.0">
     <ignored/>
   </testcase> <!-- datepicker -->
-  <testcase classname="testcases.checkboxes_test" name="chkbox" time="0.0">
+  <testcase classname="Programs.checkboxes_test" name="chkbox" time="0.0">
     <ignored/>
   </testcase> <!-- chkbox -->
-  <testcase classname="testcases.d1" name="dummy1" time="0.0">
+  <testcase classname="Programs.d1" name="dummy1" time="0.0">
     <ignored/>
   </testcase> <!-- dummy1 -->
-  <testcase classname="testcases.d2" name="m1" time="0.0">
+  <testcase classname="Programs.d2" name="m1" time="0.0">
     <ignored/>
   </testcase> <!-- m1 -->
-  <testcase classname="testcases.static_webtable" name="staticwebable" time="0.0">
+  <testcase classname="Programs.static_webtable" name="staticwebable" time="0.0">
     <ignored/>
   </testcase> <!-- staticwebable -->
 </testsuite> <!-- Grouping suite -->

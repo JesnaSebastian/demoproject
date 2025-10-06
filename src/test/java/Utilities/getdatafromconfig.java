@@ -81,4 +81,38 @@ public class getdatafromconfig {
         }
         return email;
     }
+    public  static  String getapiemail()
+    {
+        String apiemail=null;
+        String path=System.getProperty("user.home") + "\\IdeaProjects\\demoproject\\config.properties";
+        try {
+            FileInputStream fi=new FileInputStream(path);
+            Properties prop=new Properties();
+            prop.load(fi);
+            apiemail=prop.getProperty("emailapilogin");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        return apiemail;
+    }
+    public static String getapipwd() {
+        String apipwd = null;
+        String path = System.getProperty("user.home") + "\\IdeaProjects\\demoproject\\config.properties";
+        try {
+            FileInputStream fi=new FileInputStream(path);
+            Properties prop=new Properties();
+            prop.load(fi);
+            apipwd=prop.getProperty("pwdapilogin");
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+        return apipwd;
+    }
+
+
+
 }

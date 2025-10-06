@@ -11,11 +11,11 @@
         </groups>
 
         <classes>
-            <class name="testcases.checkboxes_test"/>
-            <class name="testcases.d1"/>
-            <class name="testcases.d2"/>
-            <class name="testcases.datepicker"/>
-            <class name="testcases.static_webtable"/>
+            <class name="Programs.checkboxes_test"/>
+            <class name="Programs.d1"/>
+            <class name="Programs.d2"/>
+            <class name="Programs.datepicker"/>
+            <class name="Programs.static_webtable"/>
             <class name="testcases.TC_01_shopPlanLink"/>
             <class name="testcases.TC_02_selectaPlan"/>
             <class name="testcases.TC_03_bringYourPhone"/>
